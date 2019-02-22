@@ -1,3 +1,10 @@
+# Install Instructions
+Note: I'm using python 3.5  
+// Install requirements  
+$sudo python3 -m pip install requirements.txt  
+sudo apt-get install python3-tk   # if on ubuntu
+
+# Tasks  
 Look in generate_wave.py to see how to generate a sin wave and play it as a sound  
 > Challenge: can you change it to a higher pitch? What about a lower pitch?  
 > Challenge: can you increase the lenth of the sound?  
@@ -12,7 +19,6 @@ Look at spectrum.py to see the spectrum of a wave
 
 Look at read_audio.py to see how to read in an audio file  
 > Challenge: read in other files and see how their spectrum is different  
-# TODO - WILL THIS WORK WITH NON WAVE FILES?  
 
 Look at filter.py to see how a filter works  
 > Challenge: filter out different notes  
